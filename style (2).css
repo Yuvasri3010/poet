@@ -1,0 +1,33 @@
+.text-white {
+    font-family: 'Roboto', sans-serif;
+    font-style: light;
+}
+hr {
+    border: none;
+    border-top: 3px double #160303;
+    color: black;
+    text-align: center;
+    height: 5px;
+}
+hr::after {
+background-color: #fff;
+content: 'Awards';
+padding: 0 4px;
+position: relative;
+top: -13px;
+
+}
+#icon-grid {
+    text-align: center;
+}
+.text {
+    border: 1px solid grey;
+}
+.float {
+    padding-left: 60px;
+   
+}
+.float1{
+    float: right;
+    width: 50%;
+}
